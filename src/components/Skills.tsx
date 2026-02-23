@@ -8,40 +8,28 @@ const Skills = () => {
       icon: Code,
       title: "Development",
       skills: [
-        { name: "React/TypeScript", level: 90 },
-        { name: "Node.js", level: 85 },
-        { name: "Python", level: 80 },
-        { name: "SQL/NoSQL", level: 75 }
+        { name: "React/TypeScript"},
+        { name: "Node.js"},
+        { name: "Python"},
+        { name: "SQL/NoSQL"}
       ]
     },
     {
       icon: Palette,
       title: "Design",
       skills: [
-        { name: "UI/UX Design", level: 95 },
-        { name: "Figma/Sketch", level: 90 },
-        { name: "Adobe Creative Suite", level: 85 },
-        { name: "Prototyping", level: 90 }
-      ]
-    },
-    {
-      icon: BarChart3,
-      title: "Analytics",
-      skills: [
-        { name: "Google Analytics", level: 85 },
-        { name: "Data Visualization", level: 80 },
-        { name: "A/B Testing", level: 75 },
-        { name: "Performance Optimization", level: 80 }
+        { name: "UI/UX Design"},
+        { name: "Figma"},
       ]
     },
     {
       icon: Users,
       title: "Soft Skills",
       skills: [
-        { name: "Project Management", level: 90 },
-        { name: "Team Leadership", level: 85 },
-        { name: "Client Communication", level: 95 },
-        { name: "Problem Solving", level: 90 }
+        { name: "Project Management"},
+        { name: "Team Leadership"},
+        { name: "Client Communication" },
+        { name: "Problem Solving"}
       ]
     }
   ];
@@ -77,16 +65,13 @@ const Skills = () => {
                   <div key={skillIndex} className="space-y-2">
                     <div className="flex justify-between items-center">
                       <span className="text-sm font-medium">{skill.name}</span>
-                      <span className="text-sm text-muted-foreground">{skill.level}%</span>
                     </div>
-                    <Progress value={skill.level} className="h-2" />
                   </div>
                 ))}
               </CardContent>
             </Card>
           ))}
         </div>
-
         <div className="text-center">
           <h3 className="text-2xl font-semibold mb-8">Tools & Technologies</h3>
           <div className="flex flex-wrap justify-center gap-4">

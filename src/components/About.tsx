@@ -50,11 +50,11 @@ const About = () => {
           <div className="space-y-4">
             <div className="bg-section-gradient p-6 rounded-lg shadow-elegant">
               <h4 className="font-semibold mb-2">Experience</h4>
-              <p className="text-muted-foreground">5+ years in creative industries</p>
+              <p className="text-muted-foreground">1+ years in creative industries</p>
             </div>
             <div className="bg-section-gradient p-6 rounded-lg shadow-elegant">
               <h4 className="font-semibold mb-2">Projects Completed</h4>
-              <p className="text-muted-foreground">50+ successful deliveries</p>
+              <p className="text-muted-foreground">20+ successful deliveries</p>
             </div>
             <div className="bg-section-gradient p-6 rounded-lg shadow-elegant">
               <h4 className="font-semibold mb-2">Client Satisfaction</h4>
